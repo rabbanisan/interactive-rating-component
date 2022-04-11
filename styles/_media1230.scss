@@ -1,0 +1,49 @@
+@media screen and (min-width: 1230px) {
+	.container {
+		.card {
+			padding: 3rem 3.75rem 3rem 3.25rem;
+			border-radius: 3rem;
+
+			.star {
+				padding: 1.75rem;
+
+				img {
+					width: 1.5rem;
+				}
+			}
+
+			h1 {
+				font-size: 2.875rem;
+				margin: 3.5rem 0 1rem 0;
+			}
+
+			p {
+				font-size: 1.43rem;
+				line-height: 2.35rem;
+			}
+
+			.rating-wrapper {
+				gap: 2.1rem;
+				margin: 3rem 0 3rem 0;
+
+				.rating-btn {
+					font-size: 1.65rem;
+					padding: 2.4rem 2.1rem 2.4rem 2.1rem;
+				}
+			}
+
+			.submit-btn {
+				padding: 1.3rem;
+				button {
+					font-size: 1.5rem;
+					letter-spacing: 0.25rem;
+					border: none;
+				}
+			}
+
+			.hide {
+				display: none;
+			}
+		}
+	}
+}
