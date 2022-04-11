@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Overpass;
+  src: url(/fonts/Overpass-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #121417;
+  font-family: "Overpass", "sans-serif";
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    border: 1px solid magenta;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .card {
+    max-width: 41rem;
+    background-color: rgba(37, 45, 55, 0.6);
+    width: 88%;
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+  }
+  .container .card .star {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #282b34;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1.25rem;
+    border-radius: 50%;
+  }
+  .container .card .star img {
+    width: 1.4rem;
+  }
+  .container .card h1 {
+    font-size: 2.45rem;
+    color: white;
+    font-weight: 500;
+    margin: 2rem 0 1.5rem 0;
+  }
+  .container .card p {
+    font-size: 1.35rem;
+    color: #7c8798;
+    font-weight: 600;
+  }
+  .container .card .rating-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+    margin: 2.5rem 0 2rem 0;
+  }
+  .container .card .rating-wrapper .rating-btn {
+    background-color: #282b34;
+    color: #959eac;
+    padding: 2.2rem 1.875rem 2.2rem 1.875rem;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    line-height: 0;
+    text-align: center;
+    font-weight: 600;
+  }
+  .container .card .rating-wrapper .rating-btn:hover {
+    background-color: #fb7413;
+    cursor: pointer;
+    color: white;
+  }
+  .container .card .rating-wrapper .active {
+    background-color: #959eac;
+    color: white;
+  }
+  .container .card .submit-btn {
+    background-color: #fb7413;
+    padding: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 2.5rem;
+    margin-bottom: 0.7rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    letter-spacing: 0.35rem;
+    border: none;
+  }
+  .container .card .submit-btn:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  .container .card .submit-btn:hover button {
+    color: #fb7413;
+  }
+  .container .card .card-thank-you {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .card .card-thank-you img {
+    margin-top: 1rem;
+    width: 50%;
+  }
+  .container .card .card-thank-you .rating-status {
+    background-color: #282b34;
+    color: #fb7413;
+    margin: 2rem 0 1rem 0;
+    padding: 0.75rem 1.25rem 0.75rem 1.25rem;
+    font-size: 1.45rem;
+    border-radius: 2rem;
+  }
+  .container .card .card-thank-you p {
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .container .card .hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container .card {
+    padding: 3rem 3.75rem 3rem 3.25rem;
+    border-radius: 3rem;
+  }
+  .container .card .star {
+    padding: 1.75rem;
+  }
+  .container .card .star img {
+    width: 1.5rem;
+  }
+  .container .card h1 {
+    font-size: 2.875rem;
+    margin: 3.5rem 0 1rem 0;
+  }
+  .container .card p {
+    font-size: 1.43rem;
+    line-height: 2.35rem;
+  }
+  .container .card .rating-wrapper {
+    gap: 2.1rem;
+    margin: 3rem 0 3rem 0;
+  }
+  .container .card .rating-wrapper .rating-btn {
+    font-size: 1.65rem;
+    padding: 2.4rem 2.1rem 2.4rem 2.1rem;
+  }
+  .container .card .submit-btn {
+    padding: 1.3rem;
+  }
+  .container .card .submit-btn button {
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+    border: none;
+  }
+  .container .card .hide {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

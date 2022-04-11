@@ -1,0 +1,32 @@
+// ## layout
+$mobile: 375px;
+$dextop: 1440px;
+
+// ## colors
+// ### primary
+$orange: hsl(25, 97%, 53%);
+// ### neutral
+$black: hsl(228, 11%, 9%);
+$white: hsl(0, 0%, 100%);
+$grey: hsl(225, 13%, 18%);
+$light-grey: hsl(217, 12%, 63%);
+$medium-grey: hsl(216, 12%, 54%);
+$dark-blue: hsla(213, 19%, 18%, 0.6);
+$very-dark-blue: hsl(216, 12%, 8%);
+
+// ## font-weight
+$bold: 700;
+$normal: 400;
+
+// ## font-size
+$paragraph: 15px;
+
+// ## fonst
+@font-face {
+	font-family: Overpass;
+	src: url(/fonts/Overpass-Regular.ttf);
+}
+
+@import "general";
+@import "media375";
+@import "media1440";
